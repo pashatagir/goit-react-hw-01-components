@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import FriendListItem from './FriendListItem';
+import { FriendListItem } from './FriendListItem';
 
-const FriendList = ({ items }) => (
+export const FriendList = ({ items }) => (
   <ul className="friend-list">
     {items.map(item => (
       <li key={item.id} className="item">
@@ -22,5 +22,3 @@ FriendList.propTypes = {
     }).isRequired
   ).isRequired,
 };
-
-export default FriendList;
