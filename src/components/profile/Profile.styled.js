@@ -18,6 +18,9 @@ export const Description = styled.div`
 
 export const Avatar = styled.img`
   width: 50%;
+  height: auto;
+  border-radius: 50%;
+  background-image: linear-gradient(blue, yellow);
 `;
 
 export const Name = styled.p`
